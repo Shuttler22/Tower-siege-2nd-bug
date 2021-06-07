@@ -5,6 +5,7 @@ class BaseClass{
             // JavaScriptObjectNotation
             'friction':1.0,
             'density':0.3,
+            'isStatic':false
             
         }
         this.body = Bodies.rectangle(x, y, width, height, options);
